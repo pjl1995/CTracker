@@ -2,7 +2,7 @@
 
 Official implementation in PyTorch of **Chained-Tracker** as described in [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557).
  
-The video introduction of CTracker is uploaded to [Youtube](https://www.youtube.com/watch?v=UovwAgKys88).
+The introduction video of CTracker is uploaded to [Youtube](https://www.youtube.com/watch?v=UovwAgKys88).
 
 The codes is tested with PyTorch 0.4.0. It may not run with other versions.
 
@@ -99,7 +99,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --dataset_path MOT17_ROOT --model_dir ./tr
 
 ## Citing CTracker
 
-If you think CTracker is useful in your project, please consider citing us.
+If you find CTracker is useful in your project, please consider citing us:
 
 ```BibTeX
 @inproceedings{peng2020ctracker,
