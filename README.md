@@ -1,6 +1,8 @@
 # CTracker (ECCV2020 Spotlight)
 
- Official implementation in PyTorch of **Chained-Tracker** as described in [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557).
+Official implementation in PyTorch of **Chained-Tracker** as described in [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557).
+ 
+The video introduction of CTracker is uploaded to [Youtube](https://www.youtube.com/watch?v=UovwAgKys88).
 
 The codes is tested with PyTorch 0.4.0. It may not run with other versions.
 
@@ -82,7 +84,7 @@ By default, testing will start immediately after training finished.
 
 ## Testing
 
-A trained model is available at CTRACKER_ROOT/trained_model, run the following commands to start testing:
+A trained model is available at [Google Drive](https://drive.google.com/file/d/1-5f-3QwcDoFL6b3_81tcsYTWsU43aBaz/view?usp=sharing), run the following commands to start testing:
 
 ```
 CUDA_VISIBLE_DEVICES=0 python test.py --dataset_path MOT17_ROOT --model_dir ./trained_model/
