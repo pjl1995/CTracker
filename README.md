@@ -27,6 +27,8 @@ sh lib/build.sh
 ```
 
 ## Organize MOT17 dataset
+MOT17 dataset can be downloaded at [MOTChallenge](https://motchallenge.net/data/MOT17Det/).
+
 We uses two CSV files to organize the MOT17 dataset: one file containing annotations and one file containing a class name to ID mapping. 
 
 We provide the two CSV files for MOT17 with codes in the CTRACKER_ROOT/data, you should copy them to MOT17_ROOT before starting training. 
@@ -84,7 +86,7 @@ By default, testing will start immediately after training finished.
 
 ## Testing
 
-A trained model is available at [Google Drive](https://drive.google.com/file/d/1-5f-3QwcDoFL6b3_81tcsYTWsU43aBaz/view?usp=sharing), run the following commands to start testing:
+A trained model is available at [Google Drive](https://drive.google.com/file/d/1-5f-3QwcDoFL6b3_81tcsYTWsU43aBaz/view?usp=sharing)/[Tencent Weiyun](https://share.weiyun.com/KgWrWCv3), run the following commands to start testing:
 
 ```
 CUDA_VISIBLE_DEVICES=0 python test.py --dataset_path MOT17_ROOT --model_dir ./trained_model/
