@@ -27,7 +27,7 @@ import torchvision
 
 import model
 from anchors import Anchors
-from run_for_track import run_from_train
+from test import run_from_train
 import losses
 from dataloader import CSVDataset, collater, Resizer, AspectRatioBasedSampler, Augmenter, UnNormalizer, Normalizer, PhotometricDistort, RandomSampleCrop
 from torch.utils.data import Dataset, DataLoader
