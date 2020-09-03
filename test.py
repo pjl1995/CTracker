@@ -277,8 +277,8 @@ def run_each_dataset(model_dir, retinanet, dataset_path, subset, cur_dataset):
 	videoWriter.release()
 
 def run_from_train(model_dir, root_path):
-	if not os.path.exists(os.path.join(parser.model_dir, 'results')):
-		os.makedirs(os.path.join(parser.model_dir, 'results'))
+	if not os.path.exists(os.path.join(model_dir, 'results')):
+		os.makedirs(os.path.join(model_dir, 'results'))
 	retinanet = torch.load(os.path.join(model_dir, 'model_final.pt'))
 
 	use_gpu = True
