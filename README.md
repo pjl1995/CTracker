@@ -4,7 +4,7 @@ Official implementation in PyTorch of **Chained-Tracker** as described in [Chain
  
 The introduction video of CTracker is uploaded to [Youtube](https://www.youtube.com/watch?v=UovwAgKys88).
 
-The codes is tested with PyTorch 0.4.0. It may not run with other versions.
+The codes is tested with PyTorch 0.4.1. It may not run with other versions.
 
 ## Video demos on MOT challenge test set
 <img src="demos/MOT17-03.gif" width="400"/>   <img src="demos/MOT17-07.gif" width="400"/>
@@ -16,7 +16,7 @@ The codes is tested with PyTorch 0.4.0. It may not run with other versions.
 ```
 apt-get install tk-dev python-tk
 ```
-* Install Python dependencies. We use python 3.6.5 and pytorch >= 0.4.0
+* Install Python dependencies. We use python 3.6.5 and pytorch 0.4.1
 ```
 conda create -n CTracker
 conda activate CTracker
